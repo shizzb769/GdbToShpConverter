@@ -29,6 +29,7 @@ allprojects {
         google()
         mavenCentral()
         maven { url "https://repo.osgeo.org/repository/release/" }
+        maven { url "https://repository.jboss.org/nexus/content/repositories/thirdparty-releases/" }
     }
 }
 
