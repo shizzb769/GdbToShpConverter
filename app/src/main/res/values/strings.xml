@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GDB转SHP转换器</string>
+    <string name="select_gdb_file">选择GDB文件</string>
+    <string name="select_output_dir">选择输出目录</string>
+    <string name="convert">转换</string>
+    <string name="converting">正在转换...</string>
+    <string name="conversion_complete">转换完成！</string>
+    <string name="conversion_failed">转换失败</string>
+    <string name="please_select_files">请先选择GDB文件和输出目录</string>
+    <string name="gdb_file">GDB文件: %s</string>
+    <string name="output_dir">输出目录: %s</string>
+    <string name="progress">进度: %d/%d</string>
+</resources>

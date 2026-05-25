@@ -1,0 +1,20 @@
+buildscript {
+    repositories {
+        maven {
+            name = "AliYun Google"
+            url = uri("https://maven.aliyun.com/repository/google")
+        }
+        maven {
+            name = "AliYun Central"
+            url = uri("https://maven.aliyun.com/repository/central")
+        }
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:8.2.2"
+    }
+}
+
+rootProject.name = "GdbToShpConverter"
+include ':app'
